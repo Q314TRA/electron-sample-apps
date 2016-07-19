@@ -32,7 +32,7 @@ function getPDFPrintSettings() {
 
 function print() {
   if (print_win)
-    print_win.webContents.print();
+    print_win.webContents.print(true,false);
 }
 
 function savePDF() {
